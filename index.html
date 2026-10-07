@@ -10,13 +10,13 @@
     />
   </head>
   <body>
-    <header> 
+    <header>
       <h1>Exploring Renewable Energy</h1>
       <img
         src="https://as2.ftcdn.net/v2/jpg/05/68/53/61/1000_F_568536111_Q7fPTKl7bPc4VSLDfDMhLBHs61F7tSY1.jpg"
         alt=""
         width="300"
-        />
+      />
       <p>
         Understanding how renewable energy is changing the way we produce and
         consume electricity.
@@ -104,6 +104,19 @@
             2020, and this share is expected to grow in the coming years.
           </p>
         </aside>
+
+        <script>
+          console.log("HTML: Before scripts executed at", new Date().toISOString());
+        </script>
+
+        <script src="scripts/normal.js"></script>
+        <script src="scripts/async.js" async></script>
+        <script src="scripts/defer.js" defer></script>
+
+        <script>
+          console.log("HTML: After scripts executed at", new Date().toISOString());
+        </script>
+
         <section id="data">
           <h2>Renewable Energy Data</h2>
           <p>
