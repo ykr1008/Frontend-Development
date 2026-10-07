@@ -8,12 +8,19 @@
       name="description"
       content="An accessible article exploring renewable energy, its benefits, challenges, and future."
     />
+    <style>
+      nav a {
+        display: inline-block;
+        padding: 8px;
+      }
+    </style>
   </head>
   <body>
+    <a href="#main-content">Skip to main content</a>
     <header>
       <h1>Exploring Renewable Energy</h1>
       <img
-        src="https://as2.ftcdn.net/v2/jpg/05/68/53/61/1000_F_568536111_Q7fPTKl7bPc4VSLDfDMhLBHs61F7tSY1.jpg"
+        src="images_for_webpage\dec-image-optimized.webp"
         alt=""
         width="300"
       />
@@ -30,13 +37,13 @@
         <li><a href="#data">Energy Data</a></li>
       </ul>
     </nav>
-    <main>
+    <main id="main-content">
       <article>
         <p>Published on: <time datetime="2026-10-07">October 7, 2026</time></p>
         <section id="introduction">
           <h2>Introduction</h2>
           <img
-            src="https://as2.ftcdn.net/jpg/06/30/80/59/1000_F_630805917_prJimQlPXgUEcIviw4nrroO5cvhoQJmW.jpg"
+            src="images_for_webpage\wind-turbines-solar-panels-optimized.webp"
             alt="Wind turbines and solar panels"
             width="600"
           />
@@ -61,14 +68,14 @@
             <li>Creates jobs in new industries</li>
           </ul>
           <img
-            src="https://img.freepik.com/premium-photo/hydroelectric-dam-power-generation-illustrate-hydroelectric-dam-generating-clean-energy-from-flowing-water-with-turbines-operation-water-cascading-downstream_997534-43174.jpg?w=2000"
+            src="images_for_webpage\hydroelectric-dam-optimized.webp"
             alt="Hydroelectric dam generating electricity from flowing water"
             width="400"
           />
         </section>
         <figure>
           <img
-            src="https://thumbs.dreamstime.com/b/aerial-view-large-solar-power-plant-rows-photovoltaic-panels-installed-open-land-generating-clean-renewable-energy-386345553.jpg"
+            src="images_for_webpage\solar-panels-optimized.webp"
             alt="Rows of solar panels installed across a large open field"
             width="300"
           />
@@ -86,7 +93,7 @@
             significant investment and infrastructure.
           </p>
           <img
-            src="https://yalebluegreen.org/wp-content/uploads/2021/04/windturbines.png"
+            src="images_for_webpage\windturbines-optimized.webp"
             alt="Multiple wind turbines generating electricity in an open landscape"
             width="600"
           />
@@ -106,7 +113,10 @@
         </aside>
 
         <script>
-          console.log("HTML: Before scripts executed at", new Date().toISOString());
+          console.log(
+            "HTML: Before scripts executed at",
+            new Date().toISOString(),
+          );
         </script>
 
         <script src="scripts/normal.js"></script>
@@ -114,7 +124,10 @@
         <script src="scripts/defer.js" defer></script>
 
         <script>
-          console.log("HTML: After scripts executed at", new Date().toISOString());
+          console.log(
+            "HTML: After scripts executed at",
+            new Date().toISOString(),
+          );
         </script>
 
         <section id="data">
