@@ -1,0 +1,1 @@
+All interactive elements were reachable using only the keyboard, and the focus indicator was visible on every interactive element. The skip-to-content link was the first focusable element and successfully moved to the main content.

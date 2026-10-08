@@ -1,0 +1,3 @@
+When a normal script is there in the html document, the parsing stops midway, downloads the script, executes it, and then parse the rest of the html document. Normal script blocks HTML parsing.
+When the script is async, the parsing does not stop, download and execution of the script happens along the parsing, and there is no specific order in which the async script will be executed. It will be executed whenever the donload is ready.
+In case of a defer script, the script is downloaded along parsing the html document, but it is executed only after parsing the entire document.
